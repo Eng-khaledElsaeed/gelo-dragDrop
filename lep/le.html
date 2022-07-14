@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   <link rel="stylesheet" href="le.css">
+    </head>
+    <body>
+<!-- geolocation -->
+<div id="geolocation">
+    <p>Click the button to get your coordinates.</p>
+    <button class="geolocation" type="button" onclick="getlocation()">get location</button>
+    <p id="coord">here is your location</p>
+</div>
+<hr>
+
+<!-- drag & drop -->
+<div id="div1" ondrop="drop(event)" ondragover="allowdrop(event)"></div>
+
+<img id="drag1" src="img_logo.gif" draggable="true" ondragstart="drag(event)" width="336" height="69">
+<hr>
+<!-- --------------------------------------------------------------------------------------------------- -->
+
+<script src="le.js"></script>
+    </body>
+</html>

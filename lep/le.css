@@ -1,0 +1,19 @@
+/* <!-- geolocation --> */
+#geolocation{
+    text-align: center;
+}
+#geolocation #coord{
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+/* <!-- drag & drop --> */
+#div1 {
+    width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+  }
+/* <!-- see technice --> */
